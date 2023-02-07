@@ -1,0 +1,168 @@
+body {
+  
+  background-size: cover;
+  text-align: center;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  background-color: #111;
+}
+
+header nav ul li {
+  flex: 1;
+  background-color: #5b4970;
+  position: relative;
+  text-align: center;
+}
+
+header nav a {
+  display: block;
+  padding: 0 10px;
+  color: #fff;
+  font-size: 20px;
+  line-height: 60px;
+  text-decoration: none;
+}
+
+main {
+  background-color:#caeaf7 !important;
+  padding: 60px;
+  min-height: 500px;
+}
+
+h2 {
+  font-size: 40px;
+  color: #935fb4;
+  margin: 0 0 20px;
+  
+}
+h1 {
+  font-size: 30px;
+  color: #935fb4;}
+p {
+  color: #5b4970;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0 0 10px;
+}
+
+footer {
+  background-color: #5b4970;
+  color: #fff;
+  text-align: center;
+  padding: 40px;
+}
+footer p{
+  color: rgba(255, 255, 255, 0.774);
+}
+img.profile-picture {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  margin: 20px auto;
+  display: block;
+}
+header nav a:hover {
+  background-color: #935fb4;
+}
+main {
+  background-color: #d1c1e0;
+  padding: 60px;
+  min-height: 500px;
+  box-shadow: 0px 0px 10px 3px #e5d6ee;
+  border-radius: 10px;
+  margin: 50px auto;
+  width: 80%;
+}
+.fix{
+  text-align: left;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.photo {
+  width: 40%;
+  text-align: center;
+}
+
+.photo img {
+  width: 100%;
+  max-width: 300px;
+  
+}
+
+.info {
+  width: 60%;
+  text-align: left;
+  padding: 20px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+
+.box {
+  background-color: white;
+  width: 50%;
+  padding: 50px;
+  text-align: center;
+  box-shadow: 2px 2px 10px #ccc;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #ccc;
+}
+
+textarea {
+  height: 200px;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #5b4970;
+  color: white;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.5s ease;
+  border: #fff;
+}
+
+button:hover {
+  background-color: lightblue;
+}
+
+.logo {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+}
